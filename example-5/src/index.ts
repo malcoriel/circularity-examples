@@ -7,7 +7,7 @@ import * as util from 'util';
     try {
         await AppDataSource.initialize();
         const users = await AppDataSource.manager.find(User)
-        console.log("Loaded users: ", util.inspect(users, null, 4))
+        console.log("Loaded users: ", util.inspect(users, {depth: 4}))
 
         const orders = await AppDataSource.manager.find(Order)
         console.log("Loaded orders: ", orders)
