@@ -1,2 +1,2 @@
 export type Unrelated = number;
-import { stuff } from './entry.ts';
+import { stuff } from './entry';
