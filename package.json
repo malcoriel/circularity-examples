@@ -5,7 +5,9 @@
   "author": "Valeriy Kuzmin <malcoriel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "depcheck": "yarn depcruise -c .dependency-cruiser.js"
+    "depcheck": "yarn depcruise -c .dependency-cruiser.js",
+    "depcheck-custom": "yarn depcruise -c example-7/.custom-dependency-cruiser.js",
+    "depcheck-custom2": "yarn depcruise -c example-7/.custom-dependency-cruiser-2.js"
   },
   "dependencies": {
     "dependency-cruiser": "^11.6.0",
